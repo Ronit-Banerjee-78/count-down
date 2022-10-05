@@ -5,7 +5,7 @@ const seconds = document.getElementById("seconds");
 
 
 
-const newTime = new Date('Oct 1, 2022 00:00:00').getTime();
+const newTime = new Date('Oct 19, 2023 00:00:00').getTime();
 
 
 function upadteTime() {
