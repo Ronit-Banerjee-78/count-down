@@ -7,7 +7,35 @@
 }
 
 body {
-    background-image: linear-gradient(#bdc3c7, rgba(0, 0, 0, .3)), url("back.jpg");
+    background-image: linear-gradient(#bdc3c7, rgba(0, 0, 0, .3)), url("HD-wallpaper-goddess-durga-2009-durga-puja-kolkata.jpg");
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    background-image: linear-gradient(#bdc3c7, rgba(0, 0, 0, .3)), url("HD-wallpaper-goddess-durga-2009-durga-puja-kolkata.jpg");
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.container1 {
+    background-image: linear-gradient(#bdc3c7, rgba(0, 0, 0, .05)), url("kali\ ma.jpg");
     background-position: center center;
     height: 100vh;
     background-size: cover;
@@ -31,8 +59,22 @@ h1 {
     display: flex;
     transform: scale(2);
 }
-
+.countdown1 {
+    display: flex;
+    transform: scale(2);
+}
+.container1 h1{
+    font-size: 55px;
+}
 .timer {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    max-width: 410px;
+}
+.time {
     display: flex;
     flex-direction: column;
     margin: 15px;
@@ -47,7 +89,15 @@ span {
 
 @media (max-width:500px) {
     h1 {
-        font-size: 45px;
+        font-size: 35px;
+    }
+    .container h1{
+        margin-top: 5px;
+    }
+    .container1 h1{
+        margin-top: 5px;
+        font-size: 35px;
+        margin-left: 5px;
     }
     span {
         font-size: 10px;
@@ -56,6 +106,41 @@ span {
         background-image: linear-gradient(#bdc3c7, rgba(0, 0, 0, .3)), url("back.jpg");
         background-position: center center;
         height: 100vh;
+        max-width: 1130px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container {
+        background-image: linear-gradient(#bdc3c7, rgba(0, 0, 0, .3)), url("back.jpg");
+        background-position: center center;
+        height: 100vh;
+        /* max-width: 525px; */
+    flex: 1 1 635px;
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container1 {
+        background-image: linear-gradient(#bdc3c7, rgba(0, 0, 0, .3)), url("maa.jpeg");
+        background-position: center center;
+        height: 100vh;
+        /* max-width: 525px; */
+        flex: 1 1 635px;
+
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
@@ -70,6 +155,12 @@ span {
         margin: 5px;
     }
     .timer h2 {
+        font-size: 12px;
+    }
+    .time {
+        margin: 5px;
+    }
+    .time h2 {
         font-size: 12px;
     }
 }
