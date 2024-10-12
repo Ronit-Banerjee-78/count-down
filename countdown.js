@@ -10,7 +10,7 @@ const second = document.getElementById("second");
 
 
 
-const newTime = new Date('Oct 8, 2024 00:00:00').getTime();
+const newTime = new Date('Sep 28, 2025 00:00:00').getTime();
 const maaKali= new Date('Oct 30, 2024 00:00:00').getTime();
 
 function upadteTime() {
